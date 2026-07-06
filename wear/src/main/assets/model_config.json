@@ -1,0 +1,6 @@
+{
+  "model_type": "cnn",
+  "cnn_model_path": "models/ecg_cnn_1d_detector.tflite",
+  "input_length": 200,
+  "output_classes": 2
+}

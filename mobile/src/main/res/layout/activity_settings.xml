@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F7FA"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp">
+        <ImageButton
+            android:id="@+id/btnBackSettings"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_revert" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cài đặt theo dõi"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chu kỳ tự động chẩn đoán ngầm"
+        android:textColor="#546E7A"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgInterval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        android:elevation="2dp">
+
+        <RadioButton android:id="@+id/rbOff" android:text="Tắt (Chỉ đo thủ công)" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp"/>
+        <RadioButton android:id="@+id/rb1h" android:text="Mỗi 1 tiếng" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp"/>
+        <RadioButton android:id="@+id/rb4h" android:text="Mỗi 4 tiếng" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp"/>
+        <RadioButton android:id="@+id/rb8h" android:text="Mỗi 8 tiếng" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp"/>
+        <RadioButton android:id="@+id/rb12h" android:text="Mỗi 12 tiếng" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp"/>
+        <RadioButton android:id="@+id/rb24h" android:text="Mỗi 24 tiếng" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSaveSettings"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Lưu Cài Đặt"
+        android:backgroundTint="#009688"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>

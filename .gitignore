@@ -1,0 +1,22 @@
+﻿*.iml
+# Ignore dot-prefixed directories such as .idea/, .gradle/, .codex/.
+.*/
+.agents
+.codex
+.gradle/*
+.idea/*
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+app/libs/samsung-health-sensor-api-1.4.1.aar
+app/src/main/assets/models/ecg_cnn_1d_detector.tflite

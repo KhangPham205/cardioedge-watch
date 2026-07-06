@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Mobile App</string>
+    <string name="main_title">Health Control</string>
+    <string name="main_subtitle">Theo dõi &amp; phân tích chỉ số ECG</string>
+    <string name="version_title">v1.0.2 · Powered by AI</string>
+
+    <!-- Trạng thái kết nối -->
+    <string name="status_checking">Đang kiểm tra kết nối…</string>
+    <string name="status_connected">Đã kết nối đồng hồ</string>
+    <string name="status_disconnected">Chưa kết nối đồng hồ</string>
+    <string name="status_measuring">Đang đo trên đồng hồ…</string>
+
+    <!-- Hành động -->
+    <string name="cta_diagnose_now">Chẩn đoán ngay</string>
+    <string name="section_ai_models">Cài đặt mô hình AI</string>
+    <string name="btn_model_normal">Nhịp tim cơ bản</string>
+    <string name="btn_model_afib">Rung nhĩ (AFib)</string>
+    <string name="btn_history">Lịch sử thống kê</string>
+    <string name="cd_settings">Mở cài đặt</string>
+    <string name="cd_app_logo">Biểu tượng ứng dụng</string>
+</resources>
