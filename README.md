@@ -12,8 +12,6 @@ Dự án hiện là prototype/phần mềm nghiên cứu. Kết quả phân lo�
 - `edge`: mô hình AI chạy cục bộ trên thiết bị đeo, không phụ thuộc server.
 - `watch`: trọng tâm triển khai là Wear OS/Samsung Galaxy Watch.
 
-Nếu cần một tên thuần kỹ thuật hơn, hai lựa chọn phụ hợp lý là `watch-ecg-ai` hoặc `ecg-edge-watch`.
-
 ## Tổng quan
 
 Repo gồm hai ứng dụng companion cùng dùng package/applicationId `com.example.wearhelloapp` để Wearable Data Layer ghép cặp đúng giữa điện thoại và đồng hồ:
