@@ -1,7 +1,5 @@
 ﻿# CardioEdge Watch
 
-> Tên repo đề xuất: `cardioedge-watch`
-
 CardioEdge Watch là hệ thống Android hai module dùng để thu tín hiệu ECG trên Samsung Galaxy Watch, chạy mô hình TensorFlow Lite ngay trên đồng hồ, rồi đồng bộ kết quả về điện thoại để lưu trữ, trực quan hóa và cảnh báo.
 
 Dự án hiện là prototype/phần mềm nghiên cứu. Kết quả phân loại không thay thế chẩn đoán y khoa, thiết bị y tế được chứng nhận, hoặc tư vấn từ bác sĩ.
