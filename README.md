@@ -222,4 +222,4 @@ Một vài tài liệu trong `docs/` có thể phản ánh trạng thái cũ c�
 MIT License. Xem [LICENSE](LICENSE).
 
 ## Sponsored by
-# AISeqLab - UIT
+AISeqLab - UIT
